@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('image.PNG'); /* Fügen Sie hier die URL Ihres Bildes ein */
+    background-size: cover; /* oder 'contain' je nach Bedarf */
+    background-position: center;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gestalte die Kopfzeile */
+header {
+    background: #0b6623; /* Dunkles Grün */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Stil für Sektionen */
+section {
+    padding: 20px;
+    margin: 15px;
+}
+
+/* Hintergründe für die Unterüberschriften in den Abschnitten */
+h2 {
+    background-color: #85bb65; /* Helles Grün */
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Anpassungen für Listen in den Sektionen */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #defede; /* Sehr helles Grün */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Links in Listen-Elementen */
+ul li a {
+    text-decoration: none;
+    color: #0b6623;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+@keyframes dinosaurier-animation {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+
+.dinosaurier {
+    width: 100px; /* Setze die Breite deines Bildes */
+    height: 100px; /* Setze die Höhe deines Bildes */
+    background-image: url('dinosaurier.png'); /* Pfad zum Dinosaurier-Bild */
+    animation: dinosaurier-animation 5s infinite linear; }
+/* Fußzeile */
+footer {
+    background: #0b6623; /* Dunkles Grün */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
